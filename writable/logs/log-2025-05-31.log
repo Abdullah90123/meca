@@ -1,0 +1,279 @@
+CRITICAL - 2025-05-31 05:48:15 --> ArgumentCountError: Too few arguments to function App\Controllers\ProductsController::searchSystem(), 0 passed in H:\laragon\www\meca\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: POST, Route: products/search]
+in APPPATH\Controllers\ProductsController.php on line 39.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->searchSystem()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:03:46 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(34): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:03:50 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(34): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:04:10 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(34): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:04:52 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(36): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:05:01 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:06:02 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:06:13 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:06:34 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:06:36 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:06:47 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:07:05 --> ErrorException: Undefined variable $products1
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products1', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:07:57 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:08:09 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:08:40 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:09:36 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:10:42 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:14:04 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:14:48 --> ErrorException: Undefined variable $products
+[Method: GET, Route: products/search]
+in APPPATH\Views\search_form.php on line 16.
+ 1 APPPATH\Views\search_form.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'H:\\laragon\\www\\meca\\app\\Views\\search_form.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('H:\\laragon\\www\\meca\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(35): view('search_form')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:15:20 --> ArgumentCountError: Too few arguments to function App\Controllers\ProductsController::search(), 0 passed in H:\laragon\www\meca\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: products/search]
+in APPPATH\Controllers\ProductsController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-05-31 06:15:32 --> ArgumentCountError: Too few arguments to function App\Controllers\ProductsController::search(), 0 passed in H:\laragon\www\meca\system\CodeIgniter.php on line 933 and exactly 2 expected
+[Method: GET, Route: products/search]
+in APPPATH\Controllers\ProductsController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->search()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

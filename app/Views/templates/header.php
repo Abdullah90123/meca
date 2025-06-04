@@ -163,7 +163,7 @@
       <div class="collapse navbar-collapse justify-content-end" id="mainNav">
         <ul class="navbar-nav mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link btn ms-md-3" href="<?= base_url('products');?>">Shop Now</a>
+            <a class="nav-link btn ms-md-3" href="<?= base_url('products');?>">Products</a>
           </li>
         </ul>
       </div>

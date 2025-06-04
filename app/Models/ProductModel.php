@@ -47,7 +47,7 @@ class ProductModel extends Model
     protected $afterInsert    = [];
     protected $beforeUpdate   = [];
     protected $afterUpdate    = [];
-    protected $beforeFind     = [];
+    protected $beforeFind     = [];     
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
@@ -55,5 +55,15 @@ class ProductModel extends Model
     public function getAll()
     {
         return $this->findAll();
+    }
+
+    public function searchMethod($query, $category)
+    {
+        return $this->like('name', $query)
+            ->orLike('description', $query)
+            ->when($category, function ($builder) use ($category) {
+                return $builder->orLike('category', $category);
+            })
+            ->findAll();
     }
 }

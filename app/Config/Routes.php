@@ -5,14 +5,19 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('test', 'Home::test');
+// $routes->get('/', 'Home::index');
+// $routes->get('test', 'Home::test');
 
 
-//  Home Routes - 
+//  Home Routes 
 
 $routes->get('home', 'ProductsController::index', ['as' => 'home']);
 
-// product routing --
+// product routing 
 
 $routes->get('products', 'ProductsController::products', ['as' => 'products']);
+
+// searching route  
+
+$routes->get('products/search', 'ProductsController::search', ['as' => 'products/search']);
+$routes->post('products/search', 'ProductsController::searchSystem', ['as' => 'products/search']);
