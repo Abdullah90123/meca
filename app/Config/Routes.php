@@ -16,6 +16,7 @@ $routes->get('home', 'ProductsController::index', ['as' => 'home']);
 // product routing 
 
 $routes->get('products', 'ProductsController::products', ['as' => 'products']);
+$routes->get('products/details/(:num)', 'ProductsController::productDetail/$1', ['as' => 'products.details']);
 
 // searching route  
 

@@ -1,0 +1,67 @@
+CRITICAL - 2025-06-11 08:13:51 --> ArgumentCountError: Too few arguments to function App\Controllers\ProductsController::productDetail(), 0 passed in C:\laragon\www\meca\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: products/details/4]
+in APPPATH\Controllers\ProductsController.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-11 08:18:10 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getRow
+[Method: GET, Route: products/details/4]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\ProductModel.php(72): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\ProductsController.php(35): App\Models\ProductModel->product(4)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail(4)
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-11 08:18:42 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getRow
+[Method: GET, Route: products/details/4]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\ProductModel.php(72): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\ProductsController.php(35): App\Models\ProductModel->product(4)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail(4)
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-11 08:18:42 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getRow
+[Method: GET, Route: products/details/4]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\ProductModel.php(72): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\ProductsController.php(35): App\Models\ProductModel->product(4)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail(4)
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-11 08:21:01 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ProductModel::getRow
+[Method: GET, Route: products/details/1]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Models\ProductModel.php(72): CodeIgniter\Model->__call('getRow', [])
+ 2 APPPATH\Controllers\ProductsController.php(35): App\Models\ProductModel->product(1)
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail(1)
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-11 08:22:30 --> ErrorException: Attempt to read property "image" on array
+[Method: GET, Route: products/details/2]
+in APPPATH\Views\product_view.php on line 9.
+ 1 APPPATH\Views\product_view.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "image" on array', 'C:\\laragon\\www\\meca\\app\\Views\\product_view.php', 9)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\meca\\app\\Views\\product_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('product_view', [], true)
+ 5 APPPATH\Controllers\ProductsController.php(38): view('product_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProductsController->productDetail(2)
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductsController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

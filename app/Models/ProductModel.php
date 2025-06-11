@@ -66,4 +66,9 @@ class ProductModel extends Model
             })
             ->findAll();
     }
+
+    public function product($id)
+    {
+        return $this->where('id', $id)->first();
+    }
 }

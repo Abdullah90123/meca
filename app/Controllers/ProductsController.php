@@ -28,6 +28,18 @@ class ProductsController extends BaseController
         return $output;
     }
 
+    public function productDetail(int $id)
+    {
+        $productModel = model(ProductModel::class);
+        
+        $data['products'] = $productModel->product($id);
+
+        $output = view('templates/header');
+        $output .= view('product_view', $data);
+        $output .= view('templates/footer');
+        return $output;
+    }
+
     public function search()
     {
         $request = service('request');
