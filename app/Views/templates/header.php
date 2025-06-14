@@ -161,11 +161,17 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-        <ul class="navbar-nav mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link btn ms-md-3" href="<?= base_url('products');?>">Products</a>
-          </li>
-        </ul>
+        <ul class="navbar-nav mb-2 mb-md-0 d-flex flex-row">  <!-- Added flex row here -->
+    <li class="nav-item">
+        <a class="nav-link btn ms-md-3" href="<?= base_url('products'); ?>">Products</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn ms-md-3" href="<?= base_url('products'); ?>">Dashboard</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link btn ms-md-3" href="<?= base_url('products'); ?>">Orders</a>
+    </li>
+</ul>
       </div>
     </div>
   </nav>

@@ -71,4 +71,14 @@ class ProductModel extends Model
     {
         return $this->where('id', $id)->first();
     }
+
+    public function add($data)
+    {
+        if(empty($data['name']))
+        {
+            return false;
+        }
+
+        return $this->insert($data);
+    }
 }

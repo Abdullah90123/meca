@@ -17,6 +17,10 @@ $routes->get('home', 'ProductsController::index', ['as' => 'home']);
 
 $routes->get('products', 'ProductsController::products', ['as' => 'products']);
 $routes->get('products/details/(:num)', 'ProductsController::productDetail/$1', ['as' => 'products.details']);
+$routes->get('add', 'ProductsController::add');
+$routes->post('products/create', 'ProductsController::addProduct', ['as' => 'products.create']);
+
+
 
 // searching route  
 
